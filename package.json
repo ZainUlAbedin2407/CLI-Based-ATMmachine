@@ -1,15 +1,17 @@
 {
-  "name": "atm_machine",
-  "version": "1.0.0",
-  "description": "A simple ATM project that will give you a bit functionalities",
+  "name": "zu_07_atm_machine",
+  "version": "1.0.1",
+  "description": "This Node.js script provides a basic ATM simulation, allowing users to input their PIN code and perform operations like withdrawing money, checking balance, or selecting predefined cash amounts. It's designed for easy integration into projects and utilizes the inquirer package for user interaction.",
   "main": "index.js",
   "type": "module",
+  "publishConfig": {"access": "public"},
+  "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "inquirer": "^9.2.16"
   },
